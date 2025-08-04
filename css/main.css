@@ -477,16 +477,16 @@ body {
   }
   
   .schedule__header-cell_fixed {
-    min-width: 72px;
-    width: 72px;
-    padding: 8px 4px;
+    min-width: 76px;
+    width: 76px;
+    padding: 6px 2px;
     font-size: 12px;
   }
   
   .schedule-row__cell {
-    min-width: 72px;
-    width: 72px;
-    padding: 6px 4px;
+    min-width: 76px;
+    width: 76px;
+    padding: 4px 2px;
     font-size: 12px;
   }
   
