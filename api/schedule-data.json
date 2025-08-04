@@ -58,7 +58,7 @@
     },
     {
       "employee": "Джеймс Бонд",
-      "store": "Вотоня FromRussiaWithLove", 
+      "store": "Вотоня London", 
       "role": "промоутер",
       "startTime": "2025-07-30T12:00:00",
       "endTime": "2025-07-30T21:00:00"
@@ -107,7 +107,7 @@
     },
     {
       "employee": "Джеймс Бонд",
-      "store": "Вотоня FromRussiaWithLove", 
+      "store": "Вотоня London", 
       "role": "промоутер",
       "startTime": "2025-08-06T12:00:00",
       "endTime": "2025-08-06T21:00:00"

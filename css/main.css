@@ -86,6 +86,7 @@ body {
 .schedule__scrollable-area {
   flex: 1;
   overflow-x: auto;
+  padding-bottom: 12px;
 }
 
 .schedule__header {
