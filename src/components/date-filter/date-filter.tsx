@@ -30,21 +30,23 @@ export const DateFilter: React.FC = () => {
   return (
     <div className="date-filter">
       <span className="date-filter__label">Временной период:</span>
-      <input 
-        type="date" 
-        className="date-filter__input"
-        value={startDate}
-        onChange={handleStartDateChange}
-        max={endDate}
-      />
-      <span>—</span>
-      <input 
-        type="date" 
-        className="date-filter__input"
-        value={endDate}
-        onChange={handleEndDateChange}
-        min={startDate}
-      />
+      <div className='date-filter__input-container'>
+        <input 
+          type="date" 
+          className="date-filter__input"
+          value={startDate}
+          onChange={handleStartDateChange}
+          max={endDate}
+        />
+        <span>—</span>
+        <input 
+          type="date" 
+          className="date-filter__input"
+          value={endDate}
+          onChange={handleEndDateChange}
+          min={startDate}
+        />
+      </div>
     </div>
   );
 };

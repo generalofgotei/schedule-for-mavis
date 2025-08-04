@@ -13,10 +13,10 @@ export const App: React.FC = () => {
 
   return (
     <div className="app">
-      <div className="schedule-header">
+      <header className="schedule-header">
         <h1 className="schedule-header__title">Расписание сотрудников</h1>
         <DateFilter />
-      </div>
+      </header>
       <Schedule />
     </div>
   );

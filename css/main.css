@@ -65,6 +65,12 @@ body {
   box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
 }
 
+.date-filter__input-container {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
 /* Schedule */
 .schedule {
   background: white;
