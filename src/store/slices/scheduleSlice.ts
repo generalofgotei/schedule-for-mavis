@@ -5,7 +5,7 @@ import { ScheduleState, TooltipData, ScheduleData } from '../../types';
 export const loadScheduleData = createAsyncThunk(
   'schedule/loadScheduleData',
   async () => {
-    const response = await fetch('/schedule-for-mavis/api/schedule-data.json');
+    const response = await fetch('https://raw.githubusercontent.com/generalofgotei/schedule-for-mavis/refs/heads/main/api/schedule-data.json');
     if (!response.ok) {
       throw new Error('Ошибка загрузки данных расписания');
     }
