@@ -51,6 +51,7 @@ body {
 }
 
 .date-filter__input {
+  width: 150px;
   padding: 8px 12px;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -98,6 +99,8 @@ body {
   min-width: 270px;
   border-right: 1px solid #d1d2d3;
   min-height: 67px;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
 }
 
 .schedule__header-cell {
@@ -112,6 +115,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .schedule__header-cell_fixed {
@@ -457,10 +464,12 @@ body {
 @media (max-width: 480px) {
   .schedule__fixed-columns {
     min-width: 140px;
+    height: 
   }
 
     .schedule__header-fixed {
     min-width: 110px;
+    height: 67px;
     box-sizing: content-box;
   }
   
