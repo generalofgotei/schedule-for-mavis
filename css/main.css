@@ -464,7 +464,6 @@ body {
 @media (max-width: 480px) {
   .schedule__fixed-columns {
     min-width: 140px;
-    height: 
   }
 
     .schedule__header-fixed {
@@ -478,15 +477,15 @@ body {
   }
   
   .schedule__header-cell_fixed {
-    min-width: 70px;
-    width: 70px;
+    min-width: 72px;
+    width: 72px;
     padding: 8px 4px;
     font-size: 12px;
   }
   
   .schedule-row__cell {
-    min-width: 70px;
-    width: 70px;
+    min-width: 72px;
+    width: 72px;
     padding: 6px 4px;
     font-size: 12px;
   }
